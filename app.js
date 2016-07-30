@@ -16,7 +16,7 @@ var MongoStore = require('connect-mongo')(session);
 
 var app = express();
 
-mongoose.connect('localhost:27017/shopping');
+mongoose.connect(' mongodb://heroku_p0xt8mqg:d3ak8opabuh14d17pfilsqdokh@ds031965.mlab.com:31965/heroku_p0xt8mqg');
 require('./config/passport');
 
 // view engine setup
